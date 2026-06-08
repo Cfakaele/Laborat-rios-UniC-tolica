@@ -326,7 +326,7 @@
     <!-- INFO CARD -->
     <div class="info-card fade-in">
       <div class="info-card-title">📍 Sobre o laboratório</div>
-      <div class="info-card-body">Laboratórios Unicatólica — Centro Universitário Católica do Rio Grande do Norte.</div>
+      <div class="info-card-body">Laboratórios Unicatólica — Centro Universitário Católica do Rio Grande do Norte. Atendemos alunos de graduação, cursos técnicos e do Colégio Diocesano.</div>
       <a class="info-card-link" onclick="switchPage('sobre')">
         Saiba mais
         <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -388,81 +388,155 @@
             <div style="width:38px;height:38px;border-radius:10px;background:#deeefa;display:flex;align-items:center;justify-content:center;flex-shrink:0">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-2M9 3a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 3a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2" stroke="#1a4a7a" stroke-width="1.8" stroke-linecap="round"/></svg>
             </div>
-            <div style="flex:1">
-              <div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório de Biotecnologia</div>
-            </div>
+            <div style="flex:1"><div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório de Biotecnologia</div></div>
             <svg id="lab1-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;transition:transform 0.3s;opacity:0.4"><path d="m6 9 6 6 6-6" stroke="#1a2332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div id="lab1" style="display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--gray-200)">
-            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Espaço multifuncional voltado para o ensino prático nas áreas de microbiologia, farmacologia, hematologia, parasitologia e processos biológicos. Possibilita técnicas como esfregaço de sangue, análise de bactérias e fungos, promovendo formação sólida para estudantes das áreas da saúde e biociências.</p>
+            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Espaço multifuncional voltado ao ensino prático e ao desenvolvimento de pesquisas nas áreas de microbiologia, farmacologia, hematologia, parasitologia e processos biológicos. Possibilita técnicas como esfregaço sanguíneo, análise de bactérias e fungos, extração e testes de compostos químicos de origem vegetal.</p>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px">
+              <span style="background:#deeefa;color:#1a4a7a;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Biotecnologia</span>
+              <span style="background:#deeefa;color:#1a4a7a;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Microbiologia</span>
+              <span style="background:#deeefa;color:#1a4a7a;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Pesquisa experimental</span>
+            </div>
           </div>
         </div>
 
-        <div style="height:1px;background:var(--gray-200);margin:8px 0"></div>
+        <div style="height:1px;background:var(--gray-200);margin:4px 0"></div>
 
         <div class="lab-item" onclick="toggleLab('lab2')">
           <div style="display:flex;align-items:center;gap:12px">
             <div style="width:38px;height:38px;border-radius:10px;background:#d4ede6;display:flex;align-items:center;justify-content:center;flex-shrink:0">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#0f6e56" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="#0f6e56" stroke-width="1.8"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" stroke="#0f6e56" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#0f6e56" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="#0f6e56" stroke-width="1.8"/></svg>
             </div>
-            <div style="flex:1">
-              <div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório Morfofuncional</div>
-            </div>
+            <div style="flex:1"><div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório Morfofuncional</div></div>
             <svg id="lab2-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;transition:transform 0.3s;opacity:0.4"><path d="m6 9 6 6 6-6" stroke="#1a2332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div id="lab2" style="display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--gray-200)">
-            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Destinado ao estudo da morfologia e funcionalidade do corpo humano, oferece acesso a peças sintéticas anatômicas e laminário para observações microscópicas. Essencial para o entendimento da estrutura do corpo humano, proporcionando experiências visuais e práticas para cursos da área da saúde.</p>
+            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Destinado ao estudo da morfologia e da fisiologia do corpo humano, oferece acesso a peças anatômicas sintéticas e laminário para observações microscópicas. Ambiente essencial para a compreensão da estrutura e organização do corpo humano nos cursos da área da saúde.</p>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px">
+              <span style="background:#d4ede6;color:#0f6e56;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Anatomia</span>
+              <span style="background:#d4ede6;color:#0f6e56;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Fisiologia</span>
+              <span style="background:#d4ede6;color:#0f6e56;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Microscopia</span>
+            </div>
           </div>
         </div>
 
-        <div style="height:1px;background:var(--gray-200);margin:8px 0"></div>
+        <div style="height:1px;background:var(--gray-200);margin:4px 0"></div>
 
         <div class="lab-item" onclick="toggleLab('lab3')">
           <div style="display:flex;align-items:center;gap:12px">
             <div style="width:38px;height:38px;border-radius:10px;background:#fef0d6;display:flex;align-items:center;justify-content:center;flex-shrink:0">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" stroke="#b8720e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 22v-7" stroke="#b8720e" stroke-width="1.8" stroke-linecap="round"/></svg>
             </div>
-            <div style="flex:1">
-              <div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório de Habilidades Práticas 1</div>
-            </div>
+            <div style="flex:1"><div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório de Habilidades Práticas 1</div></div>
             <svg id="lab3-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;transition:transform 0.3s;opacity:0.4"><path d="m6 9 6 6 6-6" stroke="#1a2332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div id="lab3" style="display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--gray-200)">
-            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Focado no desenvolvimento de habilidades técnicas em Fisioterapia, Nutrição e Enfermagem. Conta com aparelhos de peeling, eletroestimulação, ortopedia, saúde da mulher, infravermelho e macas. Projetado para aulas práticas de avaliação e tratamento por meio de simulações clínicas.</p>
+            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Voltado ao desenvolvimento de habilidades técnicas na área de Fisioterapia. Dispõe de aparelhos de peeling, eletroestimulação, recursos de ortopedia e saúde da mulher, lâmpadas de infravermelho e macas. Projetado para aulas práticas de avaliação e intervenção terapêutica com simulações clínicas.</p>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px">
+              <span style="background:#fef0d6;color:#b8720e;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Fisioterapia</span>
+              <span style="background:#fef0d6;color:#b8720e;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Reabilitação</span>
+              <span style="background:#fef0d6;color:#b8720e;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Prática clínica</span>
+            </div>
           </div>
         </div>
 
-        <div style="height:1px;background:var(--gray-200);margin:8px 0"></div>
+        <div style="height:1px;background:var(--gray-200);margin:4px 0"></div>
 
         <div class="lab-item" onclick="toggleLab('lab4')">
           <div style="display:flex;align-items:center;gap:12px">
             <div style="width:38px;height:38px;border-radius:10px;background:#e8e7fc;display:flex;align-items:center;justify-content:center;flex-shrink:0">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="#534ab7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </div>
-            <div style="flex:1">
-              <div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório de Habilidades Práticas 2</div>
-            </div>
+            <div style="flex:1"><div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório de Habilidades Práticas 2</div></div>
             <svg id="lab4-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;transition:transform 0.3s;opacity:0.4"><path d="m6 9 6 6 6-6" stroke="#1a2332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div id="lab4" style="display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--gray-200)">
-            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Destinado a atividades de cinesioterapia e avaliações funcionais. Dispõe de esteira, adipômetro, dispositivos para avaliação respiratória, balanças de bioimpedância e mecânica, bicicleta ergométrica e materiais para testes de ergonometria. Voltado ao desenvolvimento da capacidade de avaliação física e funcional.</p>
+            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Destinado às práticas voltadas ao desenvolvimento de habilidades em Nutrição. Dispõe de esteira, adipômetro, dispositivos para avaliação respiratória, balanças de bioimpedância e mecânica, bicicleta ergométrica e materiais para testes de ergometria. Favorece a avaliação física, metabólica e funcional do paciente.</p>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px">
+              <span style="background:#e8e7fc;color:#534ab7;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Avaliação nutricional</span>
+              <span style="background:#e8e7fc;color:#534ab7;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Composição corporal</span>
+              <span style="background:#e8e7fc;color:#534ab7;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Ergonomia metabólica</span>
+            </div>
           </div>
         </div>
 
-        <div style="height:1px;background:var(--gray-200);margin:8px 0"></div>
+        <div style="height:1px;background:var(--gray-200);margin:4px 0"></div>
 
         <div class="lab-item" onclick="toggleLab('lab5')">
           <div style="display:flex;align-items:center;gap:12px">
             <div style="width:38px;height:38px;border-radius:10px;background:#fae0d6;display:flex;align-items:center;justify-content:center;flex-shrink:0">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="#993c1d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="2" fill="#993c1d"/></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="#993c1d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </div>
-            <div style="flex:1">
-              <div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório de Semiologia e Habilidades</div>
-            </div>
+            <div style="flex:1"><div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório de Semiologia e Habilidades</div></div>
             <svg id="lab5-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;transition:transform 0.3s;opacity:0.4"><path d="m6 9 6 6 6-6" stroke="#1a2332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <div id="lab5" style="display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--gray-200)">
-            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Simula um ambiente hospitalar com estrutura de UTI. Equipado com simuladores de parto, manequins para RCP, punção venosa, entubação e exame das mamas. Oferece recursos para estudo do sistema urinário, monitores multiparamétricos e cilindros de oxigênio, permitindo vivências clínicas com segurança e realismo.</p>
+            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Simula um ambiente hospitalar com estrutura de UTI. Equipado com simuladores de parto, manequins para RCP, dispositivos para punção venosa, intubação e exame das mamas. Conta com monitores multiparamétricos, cilindros de oxigênio e equipamentos de enfermagem para vivências clínicas com segurança e realismo.</p>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px">
+              <span style="background:#fae0d6;color:#993c1d;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Simulação clínica</span>
+              <span style="background:#fae0d6;color:#993c1d;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Semiologia</span>
+              <span style="background:#fae0d6;color:#993c1d;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Treinamento em saúde</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="height:1px;background:var(--gray-200);margin:4px 0"></div>
+
+        <div class="lab-item" onclick="toggleLab('lab6')">
+          <div style="display:flex;align-items:center;gap:12px">
+            <div style="width:38px;height:38px;border-radius:10px;background:#d4ede6;display:flex;align-items:center;justify-content:center;flex-shrink:0">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#1d7a52" stroke-width="1.8"/><path d="M12 8v4l3 3" stroke="#1d7a52" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <div style="flex:1"><div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório de Ginásio Terapêutico</div></div>
+            <svg id="lab6-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;transition:transform 0.3s;opacity:0.4"><path d="m6 9 6 6 6-6" stroke="#1a2332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div id="lab6" style="display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--gray-200)">
+            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Destinado às práticas de fisioterapia voltadas à reabilitação musculoesquelética em ortopedia e traumatologia. Possibilita fortalecimento muscular, condicionamento físico, treinamento funcional e exercícios terapêuticos supervisionados para recuperação da funcionalidade e prevenção de lesões.</p>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px">
+              <span style="background:#d4ede6;color:#1d7a52;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Reabilitação musculoesquelética</span>
+              <span style="background:#d4ede6;color:#1d7a52;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Treinamento funcional</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="height:1px;background:var(--gray-200);margin:4px 0"></div>
+
+        <div class="lab-item" onclick="toggleLab('lab7')">
+          <div style="display:flex;align-items:center;gap:12px">
+            <div style="width:38px;height:38px;border-radius:10px;background:#e8e7fc;display:flex;align-items:center;justify-content:center;flex-shrink:0">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2Z" stroke="#534ab7" stroke-width="1.8"/><path d="M8 12h8M12 8v8" stroke="#534ab7" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <div style="flex:1"><div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório de Reabilitação</div></div>
+            <svg id="lab7-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;transition:transform 0.3s;opacity:0.4"><path d="m6 9 6 6 6-6" stroke="#1a2332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div id="lab7" style="display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--gray-200)">
+            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Estruturado para atendimentos fisioterapêuticos individualizados com avaliação, tratamento e acompanhamento clínico. Atende às áreas de fisioterapia dermatofuncional, ortopédica e saúde pélvica, com intervenções para manejo da dor, reabilitação muscular, terapias manuais e eletroterapia.</p>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px">
+              <span style="background:#e8e7fc;color:#534ab7;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Avaliação fisioterapêutica</span>
+              <span style="background:#e8e7fc;color:#534ab7;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Terapias manuais</span>
+              <span style="background:#e8e7fc;color:#534ab7;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Eletroterapia</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="height:1px;background:var(--gray-200);margin:4px 0"></div>
+
+        <div class="lab-item" onclick="toggleLab('lab8')">
+          <div style="display:flex;align-items:center;gap:12px">
+            <div style="width:38px;height:38px;border-radius:10px;background:#deeefa;display:flex;align-items:center;justify-content:center;flex-shrink:0">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 22C6.5 22 2 17.5 2 12S6.5 2 12 2s10 4.5 10 10-4.5 10-10 10Z" stroke="#1a4a7a" stroke-width="1.8"/><path d="M7 12c0-2.8 2.2-5 5-5s5 2.2 5 5-2.2 5-5 5" stroke="#1a4a7a" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <div style="flex:1"><div style="font-size:13px;font-weight:600;color:var(--text)">Laboratório de Hidroterapia</div></div>
+            <svg id="lab8-chev" width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink:0;transition:transform 0.3s;opacity:0.4"><path d="m6 9 6 6 6-6" stroke="#1a2332" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div id="lab8" style="display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--gray-200)">
+            <p style="font-size:12px;color:var(--gray-700);line-height:1.7">Destinado a intervenções fisioterapêuticas em meio aquático para reabilitação funcional. Possibilita programas terapêuticos nas áreas ortopédica e neurológica, utilizando as propriedades físicas da água para exercícios com menor impacto articular, maior segurança e melhor controle dos movimentos.</p>
+            <div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px">
+              <span style="background:#deeefa;color:#1a4a7a;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Fisioterapia aquática</span>
+              <span style="background:#deeefa;color:#1a4a7a;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Reabilitação funcional</span>
+              <span style="background:#deeefa;color:#1a4a7a;font-size:10px;font-weight:600;padding:3px 8px;border-radius:20px">Baixo impacto articular</span>
+            </div>
           </div>
         </div>
 
